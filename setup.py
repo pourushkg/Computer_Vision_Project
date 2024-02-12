@@ -24,6 +24,7 @@ version = "0.0.1",
 name = "Xray",
 author = "pourushkg",
 install_requires =get_requirements(r"requirements_dev.txt"),
-package = find_packages(),
 author_email = "pkg.21p10161@mtech.nitdgp.ac.in",
+packages = find_packages(),
+
 )
